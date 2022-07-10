@@ -1,0 +1,132 @@
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+  font-size: 100%;
+}
+
+body {
+  position: relative;
+  font-size: 100%;
+}
+
+.uri_container {
+  max-width: 1200px;
+  padding: var(--base-space);
+}
+
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1.875rem;
+}
+
+.gallery-thumbnail {
+  max-width: 100%;
+  height: auto;
+  /*border-radius: $radius;*/
+}
+
+.card-icon-open {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  /*transition: $transition;
+
+  &:focus,
+  &:hover {
+    color: $black;
+  }*/
+}
+
+.gallery-thumbnail:focus ~ .card-icon-open,
+.gallery-thumbnail:hover ~ .card-icon-open,
+.gallery-thumbnail ~ .card-icon-open:focus,
+.gallery-thumbnail ~ .card-icon-open:hover {
+  opacity: 1;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: rgba(21, 21, 21, 0.75);
+}
+
+.modal-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 11;
+  padding: 0;
+  overflow: auto;
+  max-width: 100%;
+  max-height: 100%;
+  /*border-radius: $radius;*/
+  transform: translate(-50%, -50%);
+}
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 8px;
+  font-size: 1.5rem;
+  /*color: $black;
+  transition: $transition;
+
+  &:focus,
+  &:hover {
+    color: #fff;
+  }*/
+}
+
+.videoshow_container {
+  position: absolute;
+
+  display: grid;
+  grid-template-columns: repeat(3);
+  grid-auto-rows: 240px;
+  grid-auto-columns: 380px;
+  grid-template-areas:
+    'video1 video2 video3'
+    'video4 video5 video6'
+    'video7 video8 video9';
+  grid-row-gap: 0.2em;
+  padding: 1.5rem;
+  background-color: fuchsia;
+  gap: 2.5rem;
+  border: rebeccapurple 5px solid;
+}
+
+.video_gallery {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.video_player {
+  padding-top: 56.25%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video_player:hover {
+  transform: scale(1.25);
+}
