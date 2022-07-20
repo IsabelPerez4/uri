@@ -7,12 +7,16 @@ import Contacts from './Pages/Contacts';
 import Uri from './Pages/Uri';
 import Fotos from './Pages/Fotos';
 import Videos from './Pages/Videos';
+import './Pages/CarouselContainer';
 
 import './App.css';
+import CarouselContainer from './Pages/CarouselContainer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <CarouselContainer />
       <Menu />
       <Routes>
         <Route path="/" element={<Homepage />} />

@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import VideoShow from '../Components/Videoshow';
 import { Routes, Route } from 'react-router-dom';
+import '../CSS/video.css';
 import MasVideos from './MasVideos';
 
 const Videos = () => {

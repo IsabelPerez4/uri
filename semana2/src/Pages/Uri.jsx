@@ -3,7 +3,7 @@ import React from 'react';
 const Uri = () => {
   return (
     <div>
-      <h1>Uri</h1>
+      <h2>Uri</h2>
       <p>
         Vivo en España desde hace 10 años y mi pasión por la fotografía nació
         porque aprecio sorprendemente la belleza especialmente la de la
