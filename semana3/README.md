@@ -25,6 +25,24 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+Before selecting the final libraries to be used in my project, I tried different ways to do the Uri web's sections. You can find components and pages created but finally not used in the final project.
+Some of the ways created were not used because they reflected errors and I didn't have any ideas on how to fix them. It means that I should have surely more practice. Sometimes, I felt frustrated because but I kept working, looking for options, and found ways which finally worked.
+
+Uri website needs more in CSS
 React-Bootstrap
 Carousel
 I've used it for doing the header
+
+Nav
+I've used for building the navbar
+
+Gallery Images
+For making the Fotos section. Mas Fotos section should be built.
+
+Reac-Player
+For making the Videos section. Mas Videos section should be built.
+
+React-Router-DOM:
+I created 6 static pages with react-router-dom
+
+https://github.com/IsabelPerez4/uri.git
