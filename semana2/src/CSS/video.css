@@ -1,0 +1,22 @@
+.row {
+  display: flex;
+  padding: 0 5rem;
+  height: 40vh;
+
+  border: fuchsia 2px solid;
+}
+
+.column {
+  flex: 50%;
+}
+
+.video_player {
+  top: 0;
+  left: 0;
+  /*object-fit: cover;
+  flex-direction: row wrap;*/
+}
+
+/*.video_player:hover {
+  transform: scale(1.25);
+}*/
