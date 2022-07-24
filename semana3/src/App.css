@@ -1,0 +1,46 @@
+body {
+  font-size: 100%;
+  font-size: 2em;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+}
+.container {
+  width: 1400px;
+  padding: var(--base-space);
+}
+.navBg {
+  background: #313073 0% 0% no-repeat padding-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.me-auto {
+  display: flex;
+  margin: 0 6rem;
+  text-decoration: none;
+  cursor: pointer;
+
+  gap: 20rem;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+  color: black;
+}
