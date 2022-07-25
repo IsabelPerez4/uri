@@ -1,0 +1,9 @@
+.hero {
+  background-image: url('https://isabelprojects.s3.amazonaws.com/proyectouri/Logos/URI%20SHOT%20EDIT%20URI%20FONDONEGRO.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+  z-index: 1;
+}
