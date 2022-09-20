@@ -1,0 +1,39 @@
+.row {
+  display: flex;
+  padding: 0 0.5rem;
+  height: 40vh;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-right: 3rem;
+  margin-left: 5rem;
+}
+
+.column {
+  width: 33%;
+}
+
+.video_player {
+  top: 0;
+  left: 0;
+  right: 0;
+  /*object-fit: cover;
+  flex-direction: row wrap;*/
+}
+
+.video_player:hover {
+  transform: scale(1.25);
+}
+
+@media screen and (max-width: 375px) {
+  .row {
+    flex-direction: column;
+    height: 55vh;
+  }
+  .column {
+    margin-left: -90px;
+  }
+
+  .video_player:hover {
+    transform: scale(1);
+  }
+}
